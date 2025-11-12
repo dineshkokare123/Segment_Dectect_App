@@ -1,15 +1,15 @@
-OLO CoreML Segmentation Demo
-🚀 Overview
+YOLO CoreML Segmentation Demo🚀 
+Overview:
 This is a SwiftUI application demonstrating real-time instance segmentation on iOS using a pre-trained YOLO (YOLOv8n-seg) model converted to Core ML.
 
 The app allows the user to select an image from their photo library, run the image through the Core ML model, and visualize the segmentation mask overlaid onto the original image.
 
-Feature	Description
-Model	YOLOv8 Nano Segmentation (yolov8n-seg)
-Framework	Core ML, Vision
-UI	SwiftUI
-Functionality	Image selection via PhotosPicker, asynchronous ML processing, and mask visualization.
-💻 Project Structure
+Feature	Description:
+Model:	YOLOv8 Nano Segmentation (yolov8n-seg)
+Framework:	Core ML, Vision
+UI:	SwiftUI
+Functionality:	Image selection via PhotosPicker, asynchronous ML processing, and mask visualization.
+💻 Project Structure:
 The key components handling the machine learning pipeline are:
 
 yolov8n-seg.mlpackage: The Core ML model file (must be exported from PyTorch/Ultralytics).
@@ -20,10 +20,10 @@ MLMultiArray+Mask.swift: An extension responsible for converting the raw MLMulti
 
 ContentView.swift: The main SwiftUI view for image selection, display, and running the processing function.
 
-🛠️ Setup and Installation
-Prerequisites
+🛠️ Setup and Installation:
+Prerequisites:
 
-Xcode (latest version recommended).
+Xcode (latest version recommended):
 
 An Apple Developer Account (Free or Paid) to run on a physical device.
 
