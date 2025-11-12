@@ -77,3 +77,9 @@ Swift
 let classIndex = Int(dataPointer[index])
 let colorIndex = min(classIndex, classColors.count - 1)
 let uiColor = classColors[colorIndex]
+
+
+Screenshots:
+
+https://github.com/user-attachments/assets/7f0f3e59-7d2e-49f9-91c7-d8033dd68d4b
+
